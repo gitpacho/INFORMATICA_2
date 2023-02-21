@@ -23,9 +23,18 @@ print(( 10, 20, 30))
 print({"hello":"hola", "world":"mundo", "crueles":"cruel"})
 
 
-
 # Imprimir los siguientes enteros en una misma linea
 #  10
 #  -90
 #  101
 
+print(10, 90, 101)
+
+# Imprimir las siguientes cadenas en una misma linea
+# las cadenas deben estar separadas por dos guiones "--"
+# "Anita"
+# "Lava"
+# "La "
+# "Tina"
+
+print("Anita","Lava","La ","Tina", sep = " -- ")
