@@ -1,0 +1,30 @@
+16-02-2023
+
+-------CONFIGURACIÓN Visual - GIT - GITHUB------
+
+1)  Instalar:
+    * Visual Studio Code
+    * Git
+    * Python
+
+2) Crear cuenta en la pagina oficial GitHub
+
+3) Configurar git en Visual Studio Code
+    Se ejecuta en la terminal:
+    * git config --global user.name "gitpacho"
+    * git config --global user.email "crepachonpa@unal.edu.co"
+
+4) Crear repositorio local   
+   
+   * Creamos una carpeta llamada INFORMATICA_2
+   * Crear subcarpetas CLASES, EJERCICIOS, INFORMES y un archivo
+   * Ir al icono source code, clickeamos + 
+     y luego clickeamos el boton commit con un mensaje
+   
+
+5) Sincronizar el repositorio local a la nube:
+    
+    * Clickeamos el boton <publish branch>
+    * Automaticamente se abre una pestaña en
+      gitHub en la cual autorizamos subir el repositorio 
+      a la nube
