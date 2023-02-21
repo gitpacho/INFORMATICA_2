@@ -1,6 +1,6 @@
 # Ejercicios
-# Imprimir la siguiente información 
 
+# Imprimir la siguiente información 
 # "Hola mundo"
 # "Hola mundo cruel"
 # 10 
@@ -13,3 +13,19 @@
 
 #Solucion
 print("Hola mundo")
+print("Hola mundo cruel")
+print(10)
+print(-9999)
+print(True)
+print(False)
+print([ 1, 2, 3])
+print(( 10, 20, 30))
+print({"hello":"hola", "world":"mundo", "crueles":"cruel"})
+
+
+
+# Imprimir los siguientes enteros en una misma linea
+#  10
+#  -90
+#  101
+
