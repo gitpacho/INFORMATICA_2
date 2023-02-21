@@ -1,0 +1,15 @@
+21-02-2023
+
+-----Tipos de datos basicos------
+
+Enteros: -99, 100, 10000
+Cadenas: "Hola", "informatica2", "-"#$%&/"
+Booleanos: True, False
+Flotantes: 12.4  9090.99   -12.91
+
+-----Datos estructurados -----------
+listas: [1,2,3,4,5]
+tuplas: (1,2,3,4,5)
+diccionarios: {"one": 1, "two": 2, "three": 3}
+
+
