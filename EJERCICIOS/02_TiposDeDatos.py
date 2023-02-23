@@ -43,10 +43,23 @@ print("resultado1 ==> ", resultado1)
 # Luego divida sucesivamente del primero al ultimo
 # y almacenelo en una variable llamada resultado2
 
+v1 = 15.2
+v2 = 29.5
+v3 = 18.28
+
+resultado2 = v1/v2/v3
+print("resultado2 ==> ", resultado2)
+
 # Strings: "123", "Cristian" 
 # Luego sume ambas variables y determine si la 
 # operacion es posible, si asi es almacenelo en una variable
 # de su eleccion
+
+string1 = "123"
+string2 = "Cristian"
+sumaStrings = string1 + string2
+print("sumaStrings ==>", sumaStrings)
+
 
 ######## Para pensar ######
 
