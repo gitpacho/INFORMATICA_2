@@ -2,6 +2,10 @@
 
 ========  Operaciones en python ===========
 
+Asignacion   a = 1
+             b = "dfsaf"
+             c = [12,3,5]
+
 Algebraicas: + - * Suma, resta, multiplicacion
              /     Division 
              //    Division entera
@@ -14,6 +18,20 @@ Comparacion  1 == 2    Devuelve False
              3 < 3     Devuelve False
             -5 <= 0    Devuelve True
              3 != 2    Devuelve True
+
+Lógicos      and      True and False  => Devuelve False
+             or       False or True   => Devuelve True 
+             not      not True        => Devuelve False
+
+Pertenencia  1 in [1,2,3,4]       Devuelve True
+             1 not in [1,2,3,4]   Devuelve False
+
+
+
+
+
+
+
 
 
 
