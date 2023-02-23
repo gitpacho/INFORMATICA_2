@@ -75,16 +75,17 @@ string1 = "hola info"
 string2 = "1234"
 cualquiera = 1234567890
 
-print("entero a flotante ==> ", )
-print("flotante a entero ==> ", )
-print("string1 a entero  ==> ", )
-print("string2 a entero  ==> ", )
-print("numero a string   ==> ", )
+conv1 = float(entero)
+conv2 = int(flotante)
+#conv3 = int(string1)
+conv4 = int(string2)
+conv5 = str(cualquiera)
 
-
-int(), float(), str(),
-set(), list(), tuple()
-
+print("entero a flotante ==> ", conv1)
+print("flotante a entero ==> ", conv2)
+#print("string1 a entero  ==> ", conv3)
+print("string2 a entero  ==> ", conv4)
+print("numero a string   ==> ", conv5, type(conv5))
 
 
 
