@@ -61,10 +61,41 @@ sumaStrings = string1 + string2
 print("sumaStrings ==>", sumaStrings)
 
 
-######## Para pensar ######
+######## EJERCICIOS CONVERSIONES ######
 
 # Busque una manera de convertir:
 # un entero a un flotante
 # un flotante a un entero
-# un string a un entero y flotante
+# un string a un entero 
 # un numero a un string
+
+entero = 10
+flotante = 15.59
+string1 = "hola info"
+string2 = "1234"
+cualquiera = 1234567890
+
+print("entero a flotante ==> ", )
+print("flotante a entero ==> ", )
+print("string1 a entero  ==> ", )
+print("string2 a entero  ==> ", )
+print("numero a string   ==> ", )
+
+
+int(), float(), str(),
+set(), list(), tuple()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
