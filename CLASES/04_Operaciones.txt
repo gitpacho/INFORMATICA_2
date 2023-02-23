@@ -1,0 +1,19 @@
+23-Feb-2023
+
+========  Operaciones en python ===========
+
+Algebraicas: + - * Suma, resta, multiplicacion
+             /     Division 
+             //    Division entera
+             %     Residuo
+             **    Potenciacion o raiz
+
+Comparacion  1 == 2    Devuelve False
+             3 > 5     Devuelve False
+             4 >= 4    Devuelve True
+             3 < 3     Devuelve False
+            -5 <= 0    Devuelve True
+             3 != 2    Devuelve True
+
+
+
