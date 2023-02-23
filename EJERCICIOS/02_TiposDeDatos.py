@@ -31,6 +31,14 @@ print(type({1,2,3}))
 # Luego reste sucesivamente del ultimo al primero y almacenelo
 # en una variable llamada resultado1 
 
+a = 1
+b = 2
+c = 3
+d = 999
+
+resultado1 = d-c-b-a
+print("resultado1 ==> ", resultado1)
+
 # Flotantes: 15.2, 29.5, 18.28
 # Luego divida sucesivamente del primero al ultimo
 # y almacenelo en una variable llamada resultado2
