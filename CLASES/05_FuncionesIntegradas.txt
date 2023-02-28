@@ -1,0 +1,28 @@
+28- Feb -2023
+
+-----Funciones integradas de python-----
+         funciones built-in  
+
+Son funciones integradas en python
+o tambien conocidas como funciones built-in
+
+Entrada y salida:  input(), print()
+Ayuda:             help(), dir(), type()
+Conversiones:      int(), float(), bool()
+                   list(), tuple(), dict()
+                   set(), complex()
+
+                   bin(), hex(), oct(), int()
+
+Secuencias:        range(), enumerate()
+
+Operaciones con    len(), sum(), min(), max(), sorted()...
+secuencias
+
+
+
+
+
+
+
+
