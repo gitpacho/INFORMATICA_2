@@ -71,6 +71,11 @@ print("distancia recorrida por el auto: ", x)
 """ Un proyectil es lanzado verticalmente hacia arriba, calcule la velocidad inicial que debe tener para 
 alcanzar una altura dada. """
 
+h = 10 #m
+g = 9.8 #m/s²
+v = (2 * h * g) ** (1/2)
+print("Velocidad necesaria: ", v, "m/s")
+
 #==>  EJERCICIO 15 
 """ Dos automoviles realizan una carrera. El primero de ellos acelera a razón constante de 3m/s², el segundo 
 a razón de 5m/s². Si el segundo de ellos empieza su recorrido 10 segundos después que el primero ha empezado.
