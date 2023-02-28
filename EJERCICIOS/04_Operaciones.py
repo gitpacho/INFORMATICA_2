@@ -8,25 +8,64 @@ ejercicios introductorios para uso de variables y ejercicios con operadores.
 """ Dada una cantidad de segundos, realice un algoritmo que los convierta a unidades horas,minutos
 mostrando en pantalla en formato "horas:minutos"  """
 
+segundos = 240
+horas = segundos // 3600
+minutos = (segundos % 3600) // 60
+print(horas,":", minutos) 
+
+
 #==>  EJERCICIO 2 
 """ ¿Qué radio debe tener una esfera, para que su volumen sea el mismo al de un cubo de lado 5 cm? """
+
+r = 5 * ((3/(4*3.141592)) ** (1/3))
+print("radio => ", r)
+
 
 #==>  EJERCICIO 4 
 """ Realice un código, que permita la conversión de millas a km y km a millas """
 
+millas = 2.5
+km = millas * 1.609
+print("millas : ", millas,"=====", "kilometros : ", km)
+
+
 #==>  EJERCICIO 5 
 """ Dadas las coordenadas P1(5,4,5) y P2(0,10,9).
 Realice un codigo que determine la distancia entre ambos puntos """
+
+x1, y1, z1 = 5,4,5
+x2, y2, z2 = 0,10,9
+
+distancia = ( (x1-x2)**2 + (y1-y2)**2 + (z1-z2) ** 2 ) ** (1/2)
+print("distancia: ", distancia)
+
 
 #==>  EJERCICIO 6 
 """ La calificación de informatica se encuentra en el intervalo [0,5] y se calcula tomando 4 notas, 
 con porcentajes de 15%, 25%, 20% y 40%. Si un estudiante tiene las primeras 3 calificaciones definidas.
 Realice un algoritmo que calcule la nota necesaria de la última nota para pasar la materia. """
 
+nota1 = 1 
+nota2 = 2
+nota3 = 2
+nota4 = (3 -(nota1 * 0.15 + nota2 * 0.25 + nota3* 0.20)) /  0.4
+print("nota 4 necesaria: ", nota4)
+
 #==>  EJERCICIO 11 
 """ Un auto acelera de manera uniforme 0.5 km/s², 
 a) ¿cuantas horas deben pasar para alcanzar la velocidad de la luz?
 b) ¿qué distancia se habrá recorrido? (suponga que es posible alcanzar la velocidad de la luz) """
+
+a = 0.5 # km/s²
+vi = 0
+vf = 300000 #km/s
+
+t = (vf - vi)/a
+t_horas = t * (1/3600)
+print("horas necesarias para igualar la velocidad luz", t_horas)
+x = (1/2) * a * (t ** 2)
+print("distancia recorrida por el auto: ", x)
+
 
 #==>  EJERCICIO 12 
 """ Un proyectil es lanzado verticalmente hacia arriba, calcule la velocidad inicial que debe tener para 
