@@ -31,6 +31,43 @@ conv5 = tuple([1,2,3]) # devuelve una tupla: (1,2,3)
 conv6 = dict([(1, "uno"), (2, "dos"), (3, "tres")]) 
 conv7 = set("abcdefghijklmnopqrstuvwxyz")  #Devuelve {"a", "b", "c",..."z"}
 
+# Conversiones entre sistemas numericos
+print("entero 11 a binario     ", bin(11))
+print("entero 11 a octal       ", oct(11))
+print("entero 11 a hexadecimal ", hex(11))
+
+print("binario 111 a  entero     ", "?")
+print("octal 88 a  entero        ", "?")
+print("hexadecimal AA a  entero  ", "?")
+
+print("================Secuencias====================")
+
+rango = range(1,10,1)    #Esto es una secuencia range(inicio, fin, salto)
+print(list(rango))       #Se debe convertir a lista para poder imprimir el rango
+
+"10,13,16, 19, .... 100"
+"-100, -99, -98, -97, ... 7, 8, 9, 10"
+"-10, -9, -8, -7, ..., 0"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
