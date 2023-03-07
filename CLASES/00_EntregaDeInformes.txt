@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
-# INFORME1: Debe contener la relatoria del curso y la solucion de ejercicios
+# INFORME1:  Debe contener la relatoria del curso y la solucion de ejercicios
 
     1) Relatoria. 
     
