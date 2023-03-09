@@ -1,0 +1,69 @@
+09 - Marzo - 2023
+
+-------------- Ciclo While ----------------
+
+Es semejante al condicional if.
+Si la condicion es verdadera, se ejecuta
+las sentencias dentro del while.
+
+Además se re-evalua la condición hasta 
+que se hace falsa y el ciclo termina
+
+---------Sintaxis-----------
+-----------------
+while <condicion>:
+    <sentencias>
+-----------------
+while <condicion>:
+    <sentencias>
+else:
+    <sentencias>
+-----------------
+
+
+---------- EJEMPLOS-----------------
+Ejemplo1: Ejecutar un ciclo while infinito
+
+#Lo siguiente podría bloquear su equipo
+
+condicion = True
+while condicion:
+    print("estoy corriendo")
+
+
+Ejemplo 2: ¿cómo protegerme de un ciclo infinito?
+
+condicion = True
+proteccion = 0
+while condicion:
+    print("Estoy corriendo en el ciclo => ", proteccion)
+    proteccion = proteccion + 1
+    if proteccion >= 200:
+        condicion = False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
