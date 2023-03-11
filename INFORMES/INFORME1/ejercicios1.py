@@ -1,14 +1,9 @@
-
-#Por favor ingrese su nombre
-
-nombre_completo = ""  
-
-"""
-Recomendaciones:
+"""Recomendaciones:
  - Recuerde almacenar las respuestas tal como se pide en cada ejercicio
  - Se resuelve de manera individual, la copia será anulada.
- - Muestre sus procedimientos de manera clara
-"""
+ - Muestre sus procedimientos de manera clara"""
+
+nombre_completo = ""    #Por favor ingrese su nombre en las comillas
 
 
 #------------------------ EJERCICIO 1 --------------------------------
@@ -21,8 +16,6 @@ Cree los siguientes rangos (tipo range()):
 Después de obtener los rangos, almacenelos de la siguiente manera:
 listaDeRangos = [rango1, rango2, rango3]
 """
-
-
 #------------------------ EJERCICIO 2 --------------------------------
 """
 Dados los siguientes puntos geométricos:
@@ -36,7 +29,6 @@ Determine el par de puntos que se encuentran más cercanos.
 Almacene la respuesta en un string llamado parCercano. Ejemplo:
 parCercano = "P2-P3" 
 """
-
 #------------------------ EJERCICIO 3 --------------------------------
 """
 La calificación de informatica se encuentra en el intervalo [0,5] y se calcula tomando 5 notas, 
@@ -66,7 +58,6 @@ cod      Nombre          Nota1   Nota2  Nota3  Nota4  Nota 5
    Almacene sus resultados en una lista llamada estudiantes, tal como se muestra:
    estudiantes = [Cantidad_que_pierden, Cantidad_que_ganan, Cantidad_con_posibilidades]
 """
-
 
 #------------------------ EJERCICIO 4 --------------------------------
 """ Seis compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
