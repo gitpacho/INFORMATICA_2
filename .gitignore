@@ -2,4 +2,5 @@ INFORMES/*/calificar.py
 INFORMES/*/calificarTodos.py
 INFORMES/*/notas.json
 INFORMES/*/PDFS
-TEMPORAL
+INFORMES/*/__pycache__
+TEMPORAL/
