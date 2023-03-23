@@ -10,19 +10,18 @@
 
 #==> EJERCICIO 2 
 """
-matrix = [[1,  2,  3,  4,  5],
-          [6,  7,  8,  9, 10],
-          [11,12, 13, 14, 15]]
-Programa que imprima la siguiente matriz
+matrix = [[1,  2,  3, 50],
+          [6,  7,  8, 10],
+          [2,  4,  6, 11]]
 
+Programa que imprima matrix de la siguiente manera
 
-
+porfilas =>    1-2-3-50-6-7-8-10-2-4-6-11-
+porColumnas => 1-6-2-2-7-4-3-8-6-50-10-11-
 """
 
 
 #==> EJERCICIO 3
-
-
 """ El rendimiento de los empleados de una empresa es el siguiente:
 --------------  Emplea_1  Emplea_2  Emplea_3  Emplea_4  Emplea_5  Emplea_6  Emplea_7  Emplea_8  Emplea_9  Emplea_10  Emplea_11  Emplea_12  Emplea_13  Emplea_14  Emplea_15  Emplea_16  Emplea_17  Emplea_18  Emplea_19  Emplea_20  Emplea_21  Emplea_22  Emplea_23  Emplea_24  Emplea_25  Emplea_26  Emplea_27 
 Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"        "C"       "B"        "A"        "C"       "B"        "B"        "B"         "B"        "A"       "B"        "A"         "A"        "C"       "B"        "B"        "B"         "B"         "C"       "A"       "C"   
