@@ -37,6 +37,18 @@ for divisor in range(2, numero-1):
 else:
       print("\n", numero, "==> Es un numero primo")
 
+#d) Programa que sume los digitos de un numero cualquiera. Ejemplo: numero=> 8791, rta=> 25 
+
+numeroCualquiera = 3456
+stringNumeroCualquiera = str(numeroCualquiera)
+
+suma = 0
+for caracter in stringNumeroCualquiera:
+    digito = int(caracter)
+    suma += digito
+
+print("original==>", numeroCualquiera, "suma => ", suma)
+
 
 #==> EJERCICIO 2 
 """
