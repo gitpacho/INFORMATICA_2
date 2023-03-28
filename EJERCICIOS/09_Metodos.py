@@ -8,13 +8,13 @@ print("capitalizar =>", cadena.title())
 print("conteo =>", cadena.count("o"))
 print("verificar =>", "12345".isdecimal())
 
-#Pero esto no lo deben olvidar
-#indexado y slicing (metodo especial que aplica para cualquier iterable)
+#Pero esto no lo deben olvidar, ojo
+#indexado (metodo especial que aplica para cualquier iterable)
 print("indexado primero (h) y sexto (m)=>", cadena[0], cadena[5])
 print("indexado ultimo (l, l) =>", cadena[15], cadena[-1])
 
 
-print("Métodos de las listas \n\n")
+print("\n\nMétodos de las listas \n\n")
 lista = [10,20,30,40,50,60,70,80,90,100, 110]
 
 #Metodos especiales indexado 
