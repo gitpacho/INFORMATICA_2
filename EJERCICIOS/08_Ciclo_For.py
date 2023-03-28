@@ -8,6 +8,36 @@
       d) Programa que sume los digitos de un numero cualquiera. Ejemplo: numero=> 8791, rta=> 25 
       e) Programa que sume los digitos pares de un numero cualquiera """
 
+# Programa que calcule los primeros 100 terminos de la serie de fibonacci
+
+#fib1, fib2 = 1, 1
+#print(fib1, fib2, sep = "-", end="-")
+#for turno in range(98):
+#      fib1, fib2 = fib2, fib1 + fib2
+#      print(fib2, end = "-")
+
+#b) Programa que determine todos los divisores de un numero n
+
+print("\nPunto B ===> ")
+n = 5  #1, 2, 3, 5, 6, 10, 15 ... n
+for divisor in range(1, n+1):
+      residuo = n % divisor
+      if residuo == 0:
+            print(divisor,end= "-")
+      
+#c) Programa que determine si un numero n es primo
+
+print("\nc. Numero primo")  # esto funciona del 2 en adelante
+numero = 1
+for divisor in range(2, numero-1):
+    residuo = numero % divisor
+    if residuo == 0:
+          print("\n", numero, "==> No es un numero primo")
+          break   # rompe el ciclo for cuando sea primo
+else:
+      print("\n", numero, "==> Es un numero primo")
+
+
 #==> EJERCICIO 2 
 """
 matrix = [[1,  2,  3, 50],
