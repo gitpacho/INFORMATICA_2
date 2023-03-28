@@ -1,0 +1,69 @@
+28-Marzo-2023
+
+---------------  Métodos --------------------------
+
+Objetos en python => strings
+                     lista, 
+                     diccionarios
+                     tuplas
+
+Todos los objetos tienen unos metodos
+los metodos son funcionalidades
+
+Ejemplos: 
+    lista.append(value)  => agregar valor
+    cadenas.upper()      => convierte a mayuscula
+    diccionario.keys()   => extrae claves
+---------------------------------------------------
+----------------------------------------------------
+
+
+----- métodos de los strings---------
+formateo:      capitalize(), upper(), lower(), title()
+               center(spaces), strip()
+operaciones:   count(subcadena),
+               find(subcadena)
+               replace(old, new)
+verificacion:  isalnum(), isalpha(), isdigit, isdecimal, 
+Indexado:      [indice]
+Slicing:       [indice1:indice2:salto]
+
+------métodos de las Listas---------
+operaciones: append(value), insert(index, value), 
+             pop(index), remove(value),
+             count(value)
+ordenado:    sort(), reverse()
+almacenamiento: clear(), copy()
+Indexado: [indice]
+Slicing:  [indice1:indice2:salto]
+
+
+-----métodos de las Tuplas--------------
+Operaciones: index(value), count(value)
+Indexado: [indice]
+Slicing:  [indice1:indice2:salto]
+
+
+--------------diccionarios--------------
+Extraccion: items(), keys(), values(), get(key)
+Eliminar: pop(key)
+Almacenamiento: clear(), copy()
+Indexado: [key]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
