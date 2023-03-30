@@ -3,17 +3,47 @@
 #==> EJERCICIO 1
 
 """ Realice las siguientes operaciones sobre listas:
-        * ["A","B","C"] Elimine el último elemento de la lista
+        a) ["A","B","C"] Elimine el último elemento de la lista
                         Luego agregue su nombre al final de la lista                  
 
-        * [100,200,300] Elimine el segundo elemento de la lista,
+        b) [100,200,300] Elimine el segundo elemento de la lista,
                         Luego agregue su edad como segundo elemento de la lista
 
-        * [1,2,3,4]     Elimine el último elemento de la lista
+        c) [1,2,3,4]     Elimine el último elemento de la lista
                         Luego agrege los valores 100, 200, 300 al final de la lista
                         Elimine el segundo elemento de la lista
                         Luego inserte el valor -1 en la segunda posición de la lista
-        * Contruya una sola lista con los elementos resultantes de las 3 listas anteriores."""
+        d) Contruya una sola lista con los elementos resultantes de las 3 listas anteriores."""
+
+
+lista = ["A","B","C"]
+lista.pop(-1)
+lista.append("Cristian Pachon")
+print("1a => ", lista)
+
+lista2 = [100,200,300]
+lista2.pop(1)
+lista2.insert(1, 30)
+print("1b =>", lista2)
+
+lista3 = [1,2,3,4]
+lista3.pop(3)
+lista3.append(100)  # lista3 = lista3 + [100,200,300]
+lista3.append(200)
+lista3.append(300)
+lista3.pop(1)
+lista3.insert(1,-1)
+print("1c =>", lista3)
+
+listaResultante = lista + lista2 + lista3
+print("1d =>", listaResultante)
+
+
+
+
+
+
+
 
 #==> EJERCICIO 2
 
@@ -39,3 +69,6 @@
          - Cada 100avo elemento, pero al revés de la lista
          - Cada 35avo elemento, a partir de la mitad
   ¿Qué operaciones puedo hacer con listas que no puede hacer con tuplas? """
+
+
+
