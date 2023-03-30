@@ -1,3 +1,5 @@
+###########
+#Metodos de las cadenas
 print("Métodos de las cadenas \n\n")
 
 cadena = "hola mundo cruel"
@@ -13,10 +15,10 @@ print("verificar =>", "12345".isdecimal())
 print("indexado primero (h) y sexto (m)=>", cadena[0], cadena[5])
 print("indexado ultimo (l, l) =>", cadena[15], cadena[-1])
 
-print("\n\nMétodos de las listas \n\n")
 
 ########################################################
 #Métodos de las listas
+print("\n\nMétodos de las listas \n\n")
 
 lista = [10,20,30,40,50, 50]
 lista.append(1000)
