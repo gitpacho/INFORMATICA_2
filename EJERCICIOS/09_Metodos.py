@@ -7,7 +7,6 @@ print("capitalizar =>", cadena.capitalize())
 print("capitalizar =>", cadena.title())
 print("conteo =>", cadena.count("o"))
 print("verificar =>", "12345".isdecimal())
-
 print("indexado primero (h) y sexto (m)=>", cadena[0], cadena[5])  #indexado (metodo especial que aplica para cualquier iterable)
 print("indexado ultimo (l, l) =>", cadena[15], cadena[-1])         #indexado (metodo especial que aplica para cualquier iterable)
 
@@ -17,12 +16,12 @@ print("indexado ultimo (l, l) =>", cadena[15], cadena[-1])         #indexado (me
 print("\n\nMétodos de las listas \n\n")
 
 lista = [10,20,30,40,50, 50]
-lista.append(1000)
+lista.append(1000) #Agrego al final de la lista
 print("agregar elementos =>", lista)
 lista.pop(2)  #Elimino 3er elemento (30)
 print("eliminar elemento =>", lista)
-print("contar un elemento =>", lista.count(50))
-lista.insert(0, 300)
+print("contar un elemento =>", lista.count(50)) #Cuento el numero de veces que está el 50
+lista.insert(0, 300) #Inserto en el indice 0, el valor 300
 print("Agregar un elemento al principio =>", lista)
 
 lista = [10,20,30,40,50,60,70,80,90,100, 110]
