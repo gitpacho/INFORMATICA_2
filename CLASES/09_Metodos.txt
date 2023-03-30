@@ -49,21 +49,3 @@ Extraccion: items(), keys(), values(), get(key)
 Eliminar: pop(key)
 Almacenamiento: clear(), copy()
 Indexado: [key]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
