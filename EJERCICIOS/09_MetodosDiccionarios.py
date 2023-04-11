@@ -38,3 +38,60 @@ A partir de la base de datos, busque una manera de:
     c) Calcular el gasto total de la empresa por motivo salarios
     d) Calcular el promedio de lo que ganan los programadores
     e) Calcular el promedio de lo que ganan los ensambladores"""
+
+
+########################
+"""--------------diccionarios--------------
+Extraccion: items(), keys(), values(), get(key)
+Eliminar: pop(key)
+Almacenamiento: clear(), copy()
+Indexado: [key]"""
+
+#Se compone por pares clave-valor 
+#y se separa por comas
+
+#Diccionario español-inglés
+diccTraduccion = {"silla": "chair",
+                  "cara": "face",
+                  "amarillo": "yellow"}
+
+#Diccionario con atomo-masa
+diccAtomico = {"Hidrogeno":1,
+               "Azufre"   :32,
+               "Carbono"  :12,
+               "Oxigeno"  :16}
+
+#Diccionario con estudiantes-nota
+diccEstudiantes = {"Juan Chica":       4.2,
+                   "Manuela Segura":   3.5,
+                   "Santiago Tabares": 3.0,
+                   "Cristian Pachon":  2.0}
+
+print("claves del diccAtomico  => ", diccAtomico.keys())
+print("valores del diccAtomico => ", diccAtomico.values())
+diccTraduccion.pop("amarillo")
+print("eliminar amarillo de diccTraduccion => ", diccTraduccion)
+print("indexado para diccEstudiantes => ", diccEstudiantes["Santiago Tabares"])
+
+
+# Teniendo en cuenta los metodos anteriores
+# Agregue 3 nuevos elementos a diccEstudiantes
+
+# Haga un ciclo for para recorrer todo diccEstudiantes 
+# impriman los pares clave-valor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
