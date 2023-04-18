@@ -68,9 +68,6 @@ entrada: numero (entero)
 salida:  sumDigitos (entero)
 """
 
-
-#PENDIENTE ===>
-
 def sumarDigitos(numero):
     sumDigitos = 0
     numeroString = str(numero)
@@ -78,7 +75,6 @@ def sumarDigitos(numero):
         sumDigitos += int(digito)
     numeroString = str(sumDigitos)
     return sumDigitos
-
 print(sumarDigitos(1237))
 
 #==========================EJERCICIOS CASA==========================
