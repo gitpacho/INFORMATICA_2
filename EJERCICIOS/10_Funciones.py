@@ -39,7 +39,24 @@ vector2    = [6,7,8,9,0]
 print("Suma vector", sumarVectores(vector1, vector2))
     
 """cree y ejecute una funcion que me encuentre
-el numero de vocales en una oracion"""
+el numero de vocales en una oracion
+
+nombre: contarVocales
+variables de entrada: oracion
+variable de salida:   numeroVocales
+"""
+def contarVocales(oracion):
+    numeroVocales = 0
+    for letra in oracion:
+        if letra in "aeiouAEIOUáéíóúÁÉÍÓÚ":
+            numeroVocales += 1
+    return numeroVocales
+
+oracion = "Hola mundo crúel"
+print("contar vocales en:", oracion, "=>", end=" ")
+print(contarVocales(oracion))
+
+
 
 """cree una funcion que me sume sucesivamente los 
 digitos de un numero. Ejemplo:
