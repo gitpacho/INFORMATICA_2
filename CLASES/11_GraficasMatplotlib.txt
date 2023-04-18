@@ -1,0 +1,27 @@
+#18-04-2023
+
+----------Graficas en python--------
+
+Existen variedad de graficos que pueden
+realizarse:
+
+* Dispersion de puntos 2D
+* Histogramas
+* Pasteles
+* Diagramas de barras
+* Dispersion 3D
+
+Para nuestro intereses solo emplearemos
+la dispersion de puntos y los histogramas
+
+import matplotlib.pyplot as plt
+
+# Dispersion de puntos
+plt.figure()                # Crear figura
+plt.plot(<xdata>, <ydata>)  # Dibujar puntos
+plt.show()                  # Mostrar figura
+
+#Histograma
+plt.figure()                # Crear figura
+plt.hist(<data>)            # Dibujar frecuencias
+plt.show()                  # Mostrar figura
