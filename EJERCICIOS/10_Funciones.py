@@ -1,5 +1,9 @@
-""" funcion que retorne si un numero 
-es primo """
+""" funcion que retorne si un numero es primo 
+
+Nombre:  esPrimo
+entrada: numero (entero)
+salida:  esNumeroPrimo (True o False)
+"""
 
 def esPrimo(numero):
     divisores = range(2,numero)
@@ -18,12 +22,17 @@ numeros = [5,101,1001,10003,1000001,371003]
 for numero in numeros:
     print(numero, "¿Es primo? =>", esPrimo(numero))
 
-"""Cree y ejecute una funcion que calcule
+"""
+Cree y ejecute una funcion que calcule
 la suma de dos vectores:
 
 vector1    = [1,2,3,4,5]
 vector2    = [6,7,8,9,0]
 sumaVector = [7,9,11,13,5]
+
+nombre:  sumarVectores
+entrada: vector1, vector2 (listas)
+salida:  sumaVector (lista)
 """
 
 def sumarVectores(vector1, vector2):
@@ -38,12 +47,12 @@ vector1    = [1,2,3,4,5]
 vector2    = [6,7,8,9,0]
 print("Suma vector", sumarVectores(vector1, vector2))
     
-"""cree y ejecute una funcion que me encuentre
+"""Cree y ejecute una funcion que me encuentre
 el numero de vocales en una oracion
 
-nombre: contarVocales
-variables de entrada: oracion
-variable de salida:   numeroVocales
+nombre:   contarVocales
+entrada:  oracion
+salida:   numeroVocales
 """
 def contarVocales(oracion):
     numeroVocales = 0
@@ -69,13 +78,15 @@ salida:  sumDigitos (entero)
 """
 
 def sumarDigitos(numero):
-    sumDigitos = 0
     numeroString = str(numero)
-    for digito in numeroString:
-        sumDigitos += int(digito)
-    numeroString = str(sumDigitos)
+    while len(numeroString) > 1:
+        sumDigitos = 0
+        for digito in numeroString:
+            sumDigitos += int(digito)
+        numeroString = str(sumDigitos)
     return sumDigitos
-print(sumarDigitos(1237))
+
+print("sumar sucesivamente =>", sumarDigitos(9237))
 
 #==========================EJERCICIOS CASA==========================
 #====================== EJERCICIOS DE FUNCIONES ====================
