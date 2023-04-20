@@ -46,7 +46,7 @@ y3 = 1/x3
 
 
 def graficar(x, y, titulo, limitex, limitey, legenda):
-    plt.figure(figsize=(6, 4))                 #crear figura
+    plt.figure(figsize=(10, 4))                 #crear figura
     plt.plot(x, y,".b", label = legenda) 
     plt.xlim(limitex[0],limitex[1])                             #limitar eje x
     plt.ylim(limitey[0],limitey[1])                             #limitar eje y
