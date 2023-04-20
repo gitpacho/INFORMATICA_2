@@ -20,30 +20,28 @@ import numpy as np
 #plt.grid()
 ##plt.show()
 
-
+import numpy as np
 #Graficar la funcion f(x) = x ** 0.5
 #para valores de x => [0,90]
 
-x0 = np.arange(0,95, 5)
+x0 = np.arange(0, 91, 1)
 y0 = x0 ** 0.5
-
-import numpy as np
 #Graficar la funcion f(x) = sen²(x) + 1
 #para valores de x => [0, 10]
 
-x1 = np.arange(0,10.1, 0.1)
+x1 = np.arange(0,10, 0.1)
 y1 = np.sin(x1)**2 + 1
 
 #Graficar la funcion f(x) = e ** (-1/x)
 #para valores de x => [-5, 5]
 
-x2 = np.arange(-5,5.03,0.03)
+x2 = np.arange(-5,5,0.03)
 y2 = np.exp(-1/x2)
 
 #Graficar la funcion f(x) = 1/x
 #para valores de x => [-5, 5]
 
-x3 = np.arange(-5,5.03, 0.1)  
+x3 = np.arange(-5,5, 0.03)  
 y3 = 1/x3
 
 
