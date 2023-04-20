@@ -192,6 +192,3 @@ y luego retorne el dinero recaudado a lo largo del día"""
     d) Realice una función que devuelva una lista con los nombres de los estudiantes que reprobaron todas sus materias.
     e) Realice una función que reciba un numero de materias ganadas y devuelva una lista con los nombres de los estudiantes que aprobaron esa cantidad de materias
     f) Realice una función que reciba un numero de materias perdidas y devuelva una lista con los nombres de los estudiantes que reprobaron esa cantidad de materias"""
-
-
-

@@ -1,0 +1,34 @@
+#13- Abril 2023
+
+#---------------Funciones--------------
+
+"""Es parte del paradigma de programacion funcionnal
+sirve para hacer un codigo más estructurado
+y evitar las repeticiones de codigo o procedimientos"""
+
+"""
+SINTAXIS =====>
+
+def <nombreFuncion>(<parametro1>, <parametro2>, ...):
+  <sentencias>
+  return <valor de retorno>
+
+EJEMPLO ====>
+funcion que devuelva los divisores de un numero
+
+nombre: encontrarDivisores
+parametros: numero_entero
+retorno: lista_divisores
+"""
+
+def encontrarDivisores(numero_entero): #definir una funcion
+  lista_divisores = []
+  divisores = range(1, numero_entero + 1)
+
+  for divisor in divisores:
+    if numero_entero % divisor == 0:
+      lista_divisores.append(divisor)  
+
+  return lista_divisores  
+
+encontrarDivisores(19)   #llamar funcion
