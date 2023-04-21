@@ -1,9 +1,7 @@
 """
  Recomendaciones:
+ - Para los ejercicios 3,4 y 5 se pide crear funciones, asi que entregue funciones, no valores
  - Recuerde almacenar las respuestas tal como se pide en cada ejercicio
-
- - Para los ejercicios 3,4 y 5 se pide crear funciones, 
-   asi que entregue funciones, no valores
  """
 
 nombre_completo = ""    #Por favor ingrese su nombre en las comillas
@@ -101,8 +99,8 @@ Almacene su respuesta en un listado llamado funciones, de la siguiente manera:
                              Vestido:    $ 95.000        2%
  
     Realice una función llamada => calcularSalario 
-    Que reciba los parametros =>   * nombre. (string con el nombre del empleado)
-                                   * unidades_vendidas. (lista [zapatos, tenis, camisas, corbatas, pantalones, blusas, vestidos] 
+    Que reciba dos parametros =>   * El nombre del empleado. (string con el nombre del empleado)
+                                   * Las unidades vendidas. (lista [zapatos, tenis, camisas, corbatas, pantalones, blusas, vestidos] 
                                                               eje: [10, 14, 13, 0, 20, 13, 8])
     Que retorne => Un diccionario con el nombre y el salario obtenido, por ejemplo: 
                    {"nombre": "Cristian Pachon", "salario" : 2000000}
