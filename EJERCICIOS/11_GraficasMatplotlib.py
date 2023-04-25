@@ -47,7 +47,7 @@ y3 = 1/x3
 
 def graficar(x, y, titulo, limitex, limitey, legenda):
     plt.figure(figsize=(10, 4))                 #crear figura
-    plt.plot(x, y,".b", label = legenda) 
+    plt.plot(x, y,".r", label = legenda) 
     plt.xlim(limitex[0],limitex[1])                             #limitar eje x
     plt.ylim(limitey[0],limitey[1])                             #limitar eje y
     plt.title(titulo)                          #mostrar titulo
@@ -66,7 +66,7 @@ graficar(x2, y2, "Funcion 3", (-5,5), (0, 3),  "y = e ^ (-1/x)")
 graficar(x3, y3, "Funcion 4", (-5,5), (-1, 1), "y = 1/x")
 
 
-
+#Obtener la grafica mostrada en la figura 5
 
 
 
