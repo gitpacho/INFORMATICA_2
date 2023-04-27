@@ -1,0 +1,20 @@
+27-04-2023
+
+# ----------------Estructuras de datos----------------
+
+Las principales estructuras son
+    * arreglos
+    * series 
+    * dataframes
+
+pip install numpy   #En la terminal
+pip install pandas  #En la terminal
+
+import numpy   
+    #(arreglos 1D->vector 2D->matriz 3D->Tensor)
+
+import pandas  
+    # (Series -> 1D)
+    #  (DataFrames -> 2D)
+
+
