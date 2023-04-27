@@ -85,15 +85,15 @@ grafica(arrayUnos1D, False)
 """
 
 
-"""
-    Busque funciones integradas de numpy para dibujar
-    * Si x = numpy.arange(-5,5,0.1)
-    * y1 =  sen(x)
-    * y2 =  cos(x)
-    * y2 =  tan(x)
-    * y3 =  sinh(x)
-    * y4 =  cosh(x)
-    * y5 =  |x|     valor absoluto  """
+"""    Busque funciones integradas de numpy para dibujar
+       Si x = numpy.arange(-5,5,0.1)
+
+        * y1 =  sen(x)
+        * y2 =  cos(x)
+        * y3 =  tan(x)
+        * y4 =  sinh(x)
+        * y5 =  cosh(x)
+        * y6 =  |x|     (valor absoluto)  """
 
 
 
