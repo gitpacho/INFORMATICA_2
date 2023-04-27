@@ -13,7 +13,9 @@ def grafica(y, encendido):
 
 def histrograma(data, encendido):
     plt.figure()
-    plt.hist(data)
+    plt.hist(data, bins=15, label = "15 intervalos")
+    plt.grid()
+    plt.legend()
     if encendido == True:
         plt.show()
     else:
@@ -43,9 +45,15 @@ grafica(array1D, False)
 grafica(aleatorios1D, False)
 
 #Generar numeros aleatorios
-para las distribuciones normal, exponencial, logistica
+#para las distribuciones normal, exponencial, logistica
 #Dibujarlas en un histograma
 
-plt.hist(data)
+dataNormal1D = numpy.random.normal(size = 5000)  #5000 datos aleatorios normales
+histrograma(dataNormal1D, False)
+dataExponencial1D = numpy.random.exponential(size = 5000)
+histrograma(dataExponencial1D, False)
+dataLogistica1D = numpy.random.logistic(size=5000)
+histrograma(dataLogistica1D, True)
+
 
 
