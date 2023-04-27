@@ -35,10 +35,8 @@ array2D = array1D.reshape((4,5))  #filas,columnas
 
 print("array1", array1D)
 print("array2", array2D)
-
 aleatorios1D = numpy.random.random(50)  #50 valores aleatorios [0,1]
 aleatorios2D = aleatorios1D.reshape((5,10))
-
 print("aleatorios1D", aleatorios1D)
 print("aleatorios2D", aleatorios2D)
 grafica(array1D, False)
@@ -46,14 +44,44 @@ grafica(aleatorios1D, False)
 
 #Generar numeros aleatorios
 #para las distribuciones normal, exponencial, logistica
-#Dibujarlas en un histograma
-
 dataNormal1D = numpy.random.normal(size = 5000)  #5000 datos aleatorios normales
 histrograma(dataNormal1D, False)
 dataExponencial1D = numpy.random.exponential(size = 5000)
 histrograma(dataExponencial1D, False)
 dataLogistica1D = numpy.random.logistic(size=5000)
-histrograma(dataLogistica1D, True)
+histrograma(dataLogistica1D, False)
+
+# arreglos de zeros, o unos
+arrayCeros1D = numpy.zeros(50)  #50 datos
+arrayUnos1D  = numpy.ones(50)   #50 datos
+
+grafica(arrayCeros1D, False)
+grafica(arrayUnos1D, False)
+
+"""crear una matriz cuadrada y el vector
+
+    |1,3,5,7|      |1|
+A = |9,0,1,3|    b=|2|
+    |5,7,9,0|      |3|
+    |2,4,6,8|      |4|
+
+resuelva la ecuacion 
+Ax = b
+
+Utilizando la funcion
+numpy.linalg.solve()
+
+
+    
+
+
+"""
+
+
+
+
+
+
 
 
 
