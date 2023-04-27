@@ -11,6 +11,13 @@ def grafica(y, encendido):
     else:
         plt.close()
 
+def histrograma(data, encendido):
+    plt.figure()
+    plt.hist(data)
+    if encendido == True:
+        plt.show()
+    else:
+        plt.close()
 
 #=================arreglos numpy ==================
 
@@ -32,8 +39,13 @@ aleatorios2D = aleatorios1D.reshape((5,10))
 
 print("aleatorios1D", aleatorios1D)
 print("aleatorios2D", aleatorios2D)
+grafica(array1D, False)
+grafica(aleatorios1D, False)
 
+#Generar numeros aleatorios
+para las distribuciones normal, exponencial, logistica
+#Dibujarlas en un histograma
 
-
+plt.hist(data)
 
 
