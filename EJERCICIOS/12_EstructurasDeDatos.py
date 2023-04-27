@@ -58,29 +58,31 @@ arrayUnos1D  = numpy.ones(50)   #50 datos
 grafica(arrayCeros1D, False)
 grafica(arrayUnos1D, False)
 
+
+#==============EJERCICIOS====================
 """crear una matriz cuadrada y el vector
 
-    |1,3,5,7|      |1|
-A = |9,0,1,3|    b=|2|
-    |5,7,9,0|      |3|
-    |2,4,6,8|      |4|
+                |1,3,5,7|      |1|
+            A = |9,0,1,3|    b=|2|
+                |5,7,9,0|      |3|
+                |2,4,6,8|      |4|
 
-resuelva la ecuacion Ax = b
-Utilizando la funcion numpy.linalg.solve()
+    resuelva la ecuacion Ax = b
+    Utilizando la funcion numpy.linalg.solve() """
+
+
+"""cree una matriz de 10 filas por 5 columnas
+   con numeros aleatorios"""
+
+
+"""sume una matriz de unos (3x3) y una matriz identidad (3x3)
+   luego convierta la matriz resultante en un arreglo1D (vector)
+   grafique el vector con graficar()
 """
 
+""" genere 10000 numeros aleatorios con una distribucion uniforme
+    muestre el histograma usando histrograma()
 """
-cree una matriz de 10 filas por 5 columnas
-con numeros aleatorios
-"""
-
-"""
-sume una matriz de unos (3x3) y una matriz identidad (3x3)
-
-convierta la matriz resultante en un arreglo1D (vector)
-grafique el vector con graficar()
-"""
-
 
 
 
