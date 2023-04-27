@@ -65,17 +65,16 @@ A = |9,0,1,3|    b=|2|
     |5,7,9,0|      |3|
     |2,4,6,8|      |4|
 
-resuelva la ecuacion 
-Ax = b
-
-Utilizando la funcion
-numpy.linalg.solve()
-
-
-    
-
+resuelva la ecuacion Ax = b
+Utilizando la funcion numpy.linalg.solve()
+"""
 
 """
+cree una matriz de 10 filas por 5 columnas
+con numeros aleatorios
+"""
+
+
 
 
 
