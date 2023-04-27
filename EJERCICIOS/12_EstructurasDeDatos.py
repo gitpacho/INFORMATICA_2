@@ -74,6 +74,16 @@ cree una matriz de 10 filas por 5 columnas
 con numeros aleatorios
 """
 
+"""
+sume una matriz de unos (3x3) y una matriz identidad (3x3)
+
+convierta la matriz resultante en un arreglo1D (vector)
+grafique el vector con graficar()
+"""
+
+
+
+
 
 
 
