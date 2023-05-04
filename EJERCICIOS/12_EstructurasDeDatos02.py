@@ -38,17 +38,33 @@ print("numero atomico Oxigeno =>", serieNumerosAtomicos["O"])
 
 #crear una serie con los siguientes datos: 
 
-"""Cod   Nombre               Cargo          Salario   
-0001   Cristian Pachon     Ingeniero      $ 3.200.000
-0002   Daniela Pineda      Programador    $ 4.300.000
-0003   Esteban Murcia      Programador    $ 4.600.000
-0004   Jose Guzman         Ingeniero      $ 3.900.000
-0005   Camilo Rodriguez    Ensamblador    $ 1.200.000
-0006   Mariana Londoño     Ensamblador    $ 1.100.000
-0007   Estefania Muños     Ensamblador    $ 1.700.000
-0008   Cristian Rodriguez  Ingeniero      $ 3.100.000
-0009   Natalia Alzate      Ensamblador    $ 2.200.000
-0010   Juan Sanabria       Diseñador      $ 5.100.000
-0011   Juanita Calderon    Ensamblador    $ 1.300.000
-0012   Laura Quintero      Administrador  $ 2.500.000
-0013   Viviana Quesada     Guardia        $ 1.500.000"""
+"""
+  Nombre              Salario   
+  Cristian Pachon     $ 3.200.000
+  Daniela Pineda      $ 4.300.000
+  Esteban Murcia      $ 4.600.000
+  Jose Guzman         $ 3.900.000
+  Camilo Rodriguez    $ 1.200.000
+  Mariana Londoño     $ 1.100.000
+  Estefania Muñoz     $ 1.700.000
+  Cristian Rodriguez  $ 3.100.000
+  Natalia Alzate      $ 2.200.000
+  Juan Sanabria       $ 5.100.000
+  Juanita Calderon    $ 1.300.000
+  Laura Quintero      $ 2.500.000
+  Viviana Quesada     $ 1.500.000"""
+
+
+#Luego:
+#Extraer el salario de Estefania Muñoz
+#Extraer el salario de Mariana Londoño
+#Extraer el salario mas alto 
+#Extraer el salario más bajo
+#Extraer los nombres de los trabajadores con salario mayor a 4 millones
+#Extraer los nombres de los trabajadores con salario menor a 1.5 milones
+#Determinar la media de los salarios
+#Determinal la desviacion estandar de los salarios
+
+
+
+
