@@ -31,10 +31,11 @@ print("desviacion numeros atomicos =>", serieNumerosAtomicos.std())
 # Extraer aquellos meses con menos de 30 dias
 # Extraer aquellos elementos con numero atomico mayor a 6
 
-
 print("Dias de mayo =>", serieDiasPorMes["May"], serieDiasPorMes[4])
 print("numero atomico Oxigeno =>", serieNumerosAtomicos["O"])
 
+
+#-----------------------EJERCICIO----------------------
 
 #crear una serie con los siguientes datos: 
 
