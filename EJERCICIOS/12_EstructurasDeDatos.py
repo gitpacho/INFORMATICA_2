@@ -130,7 +130,6 @@ y6 = numpy.absolute(x)
 
 
 plt.figure(figsize=(10, 5))
-plt.grid()
 
 plt.subplot(2,3,1)
 plt.plot(x,y1, label= "y(x) = sin(x)")
