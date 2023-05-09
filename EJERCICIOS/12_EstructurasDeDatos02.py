@@ -83,6 +83,23 @@ print("Salarios menores a 1.5 mill =>", list(salariosBajos.index))
 print("media de salarios =>", salarios.mean())
 print("Desviacion estandar de salarios =>", salarios.std())
 
+# Dibujar y describir la serie salarios
+
+print("descripcion => \n",salarios.describe())
+#import matplotlib.pyplot as plt
+#plt.figure()
+#salarios.plot.hist()
+#plt.show()
+
+
+
+
+
+
+
+
+
+
 
 
 
