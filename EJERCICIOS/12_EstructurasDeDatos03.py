@@ -51,6 +51,11 @@ if condicion1 and condicion2 and condicion3:
 else:
     print("No habra salida")
 
+import matplotlib.pyplot as plt
+notas2 = notas.transpose()[1::]
+notas2.columns = notas["Nombre"].values
+notas2.plot(style="-o", grid="on")
+plt.show()
 
 
 ########EJERCICIO DATAfRAMES##########
