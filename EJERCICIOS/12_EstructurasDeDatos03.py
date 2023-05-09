@@ -53,10 +53,7 @@ else:
 
 
 
-
-###################
-
-
+########EJERCICIO DATAfRAMES##########
 
 
 """ Seis compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
