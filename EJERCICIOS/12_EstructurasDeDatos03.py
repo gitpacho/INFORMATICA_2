@@ -23,6 +23,8 @@ data = [["Camila",    1.0,    2.3,    5.0,    5.0],
         ["Daniela",   5.0,    0.5,    1.0,    0.2],
         ["Esteban",   4.0,    5.0,    0.0,    0.0]]
 
+import pandas
+notas = pandas.DataFrame(index=index, columns=columns, data=data)
 
 
 
