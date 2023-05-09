@@ -67,5 +67,24 @@ print("numero atomico Oxigeno =>", serieNumerosAtomicos["O"])
 #Determinal la desviacion estandar de los salarios
 
 
+index = ["Cristian Pachon","Daniela Pineda","Esteban Murcia","Jose Guzman","Camilo Rodriguez","Mariana Londoño","Estefania Muñoz","Cristian Rodriguez","Natalia Alzate","Juan Sanabria","Juanita Calderon","Laura Quintero","Viviana Quesada"]
+data = [3200000,4300000,4600000,3900000,1200000,1100000,1700000,3100000,2200000,5100000,1300000,2500000,1500000]
+salarios = pandas.Series(index=index, data=data)
+
+print(salarios)
+print("Salario de Estefania =>", salarios["Estefania Muñoz"])
+print("Salario de Mariana =>", salarios["Mariana Londoño"])
+print("Salario más alto =>", salarios.max())
+print("Salario más bajo =>", salarios.min())
+salariosAltos = salarios[salarios > 4000000]
+print("Salarios superiores a 4 mill =>", list(salariosAltos.index))
+salariosBajos = salarios[salarios < 1500000]
+print("Salarios menores a 1.5 mill =>", list(salariosBajos.index))
+print("media de salarios =>", salarios.mean())
+print("Desviacion estandar de salarios =>", salarios.std())
+
+
+
+
 
 
