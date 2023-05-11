@@ -105,5 +105,15 @@ cuotaPorDia = 15000/usuariosPorDia
 print("\n\nusuariosPorDia =>\n", usuariosPorDia)
 print("\n\ncuotaPorDia =>\n", cuotaPorDia)
 
-cuotas = taxiIda * cuotaPorDia
-print(cuotas)
+cuotasIda = taxiIda * cuotaPorDia
+print(cuotasIda)
+
+
+cuotaPorEstudiante = cuotasIda.sum(axis = 1)
+print(cuotaPorEstudiante)
+
+
+cuotasIda["Total"] = cuotaPorEstudiante
+print(cuotasIda)
+
+
