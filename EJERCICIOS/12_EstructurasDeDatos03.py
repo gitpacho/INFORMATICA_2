@@ -51,15 +51,16 @@ if condicion1 and condicion2 and condicion3:
 else:
     print("No habra salida")
 
-import matplotlib.pyplot as plt
-notas2 = notas.transpose()[1::]
-notas2.columns = notas["Nombre"].values
-notas2.plot(style="-o", grid="on")
-plt.show()
+#import matplotlib.pyplot as plt
+#notas2 = notas.transpose()[1::]
+#notas2.columns = notas["Nombre"].values
+#notas2.plot(style="-o", grid="on")
+#plt.show()
 
 
-########EJERCICIO DATAfRAMES##########
+#-----------EJERCICIO DATAfRAMES--------------
 
+#1
 
 """ Seis compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
 El contrato es de lunes a viernes, y deben pagar al taxista $15000 por cada trayecto. 
@@ -108,12 +109,40 @@ print("\n\ncuotaPorDia =>\n", cuotaPorDia)
 cuotasIda = taxiIda * cuotaPorDia
 print(cuotasIda)
 
-
 cuotaPorEstudiante = cuotasIda.sum(axis = 1)
 print(cuotaPorEstudiante)
-
 
 cuotasIda["Total"] = cuotaPorEstudiante
 print(cuotasIda)
 
+#2) 
 
+"""
+datas las funciones =>
+
+f1(x)= sin(x)
+f2(x)= sin(x)/(cos(x) + 2)
+f3(x)= cosh(x)
+f4(x)= exp(1/x)*cos(x)
+f5(x)= |x|
+evaluar cada funcion en el intervalo x = [-2,2]
+
+Crear un dataFrame que contenga como columnas
+cada una de las funciones evaluadas
+
+      | f1  | f2  | f3 | f4 | f5 |
+----------------------------------
+-2.00 |  ?  |  ?  | ?  | ?  | ?  |
+-1.99 |  ?  |  ?  | ?  | ?  | ?  |
+-1.98 |  ?  |  ?  | ?  | ?  | ?  |
+-1.97 |  ?  |  ?  | ?  | ?  | ?  |
+.     |  ?  |  ?  | ?  | ?  | ?  |
+.     |  ?  |  ?  | ?  | ?  | ?  |
+.     |  ?  |  ?  | ?  | ?  | ?  |
+ 1.97 |  ?  |  ?  | ?  | ?  | ?  |
+ 1.98 |  ?  |  ?  | ?  | ?  | ?  |
+ 1.99 |  ?  |  ?  | ?  | ?  | ?  |
+ 2.00 |  ?  |  ?  | ?  | ?  | ?  |
+
+ Dibujar cada columna
+"""
