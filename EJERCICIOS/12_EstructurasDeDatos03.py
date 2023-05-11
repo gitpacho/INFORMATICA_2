@@ -97,7 +97,13 @@ data = [[True,  True,  True,  True,  False],
         [True,  False, True,  False, False]]
 
 taxiIda = pandas.DataFrame(index=index, columns=columns, data=data)
-taxiIda
+print(taxiIda)
 
 
+usuariosPorDia = taxiIda.sum(axis = 0)
+cuotaPorDia = 15000/usuariosPorDia
+print("\n\nusuariosPorDia =>\n", usuariosPorDia)
+print("\n\ncuotaPorDia =>\n", cuotaPorDia)
 
+cuotas = taxiIda * cuotaPorDia
+print(cuotas)
