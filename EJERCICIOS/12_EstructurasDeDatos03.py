@@ -87,7 +87,17 @@ y los valores deben ser el dinero total que pagó cada uno al terminar la semana
 """
 
 
+index = ["JUAN","CAMILA","JOSE","MARIA","ESTEBAN","ANGIE"]
+columns = ["LUNES","MARTES","MIERCOLES","JUEVES","VIERNES"]
+data = [[True,  True,  True,  True,  False],
+        [True,  False, True,  False, True],
+        [True,  False, True,  True,  False],
+        [True,  True,  True,  False, False],
+        [True,  False, False, True,  True],
+        [True,  False, True,  False, False]]
 
+taxiIda = pandas.DataFrame(index=index, columns=columns, data=data)
+taxiIda
 
 
 
